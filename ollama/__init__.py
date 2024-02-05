@@ -5,8 +5,7 @@ from ollama._types import (
   ProgressResponse,
   Message,
   Options,
-  RequestError,
-  ResponseError,
+  Role,
 )
 
 __all__ = [
@@ -16,6 +15,7 @@ __all__ = [
   'ChatResponse',
   'ProgressResponse',
   'Message',
+  'Role',
   'Options',
   'RequestError',
   'ResponseError',
